@@ -1,0 +1,31 @@
+.cities {
+    position: relative;
+    background-color: red;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+  } 
+
+.remove {
+    position: absolute;
+    float: right;
+    top: 0%;
+    right: 4vw;  
+    cursor: pointer;
+}
+
+.remove:active {
+    color: black;
+}
+
+.add {
+    position: absolute;
+    float: right;
+    bottom: 0%;
+    right: 4vw;  
+    cursor: pointer;  
+}
+
+.add:active {
+    color: black;
+}
